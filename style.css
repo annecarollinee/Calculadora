@@ -15,7 +15,7 @@ input{
     text-align: center;
     margin: 5px;
     box-sizing: border-box;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    transition: border-color 0.5s ease, box-shadow 0.5s ease;
 }
 input:focus{
     outline: none;
@@ -48,7 +48,7 @@ input.botao{
     width: 50px;
     height: 50px;
     font-size: 25px;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    transition: border-color 0.5s ease, box-shadow 0.5s ease;
 }
 input.botao:focus{
     outline: none;
@@ -63,7 +63,7 @@ input#limpar{
     width: 200px;
     height: 50px;
     color: white;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    transition: border-color 0.5s ease, box-shadow 0.5s ease;
 }
 input#limpar:focus{
     outline: none;
@@ -83,10 +83,4 @@ input#resultado{
     background-color: white;
     color: #2200c9;
     font-weight: bold;
-}
-input#n1,
-input#n2 {
-    width: 120px;
-    height: 50px;
-    text-align: center;
 }
