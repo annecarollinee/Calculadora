@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculadora">
+    <h1>Calculadora com Javascript</h1>
+    <hr>
+
+    <!-- Campos da calculadora -->
+     <p>Insira dois números</p>
+    <input type="number" name="n1" id="n1" min="0" max="99">
+    <strong>e</strong>
+    <input type="number" name="n2" id="n2" min="0" max="99">
+    <br> <br>
+    <p>Selecione a operação</p>
+    <div id="conta">
+    <input type="button" value="+" onclick="somar()" class="botao">
+    <input type="button" value="-" onclick="subtrair()" class="botao">
+    <input type="button" value="×" onclick="multiplicar()" class="botao">
+    <input type="button" value="÷" onclick="dividir()" class="botao">
+    </div>
+
+    <!-- Área de resultado -->
+     <p>Resultado</p>
+    <input type="number" value="" id="resultado"> <br> <br>
+    <input type="button" value="Limpar" onclick="limpar()" id="limpar">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
